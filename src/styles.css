@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  color: #455266;
+}
+
+.container {
+  width: 98vw;
+  height: 96vh;
+  /* border: 1px solid #EEEEEE; */
+  display: flex;
+  /* background-color: #f5f8fa; */
+}
+
+.column {
+  margin: 20px;
+  width: 300px;
+  height: 90vh;
+  border: 1px solid #eeeeee;
+  background-color: #f5f8fa;
+}
+
+.task {
+  width: 235px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: end;
+}
+
+.delete-container {
+  display: flex;
+  justify-content: end;
+}
+
+.left {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.right {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
